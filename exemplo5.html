@@ -3,9 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DOM</title>
+    <script src="exemplo5.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="img/Emoji-Sorridente-com-Dentes-Enormes.ico">
+     <style>
+      .oculto {
+        display: none;
+      }
+      .corvinal {
+        background-color: blue;
+      }
+      .grifinoria {
+        background-color: red;
+      }
+      .sonserina {
+        background-color: green;
+      }
+      .lufa_lufa {
+        background-color: yellow;
+      }
+    </style>
   </head>
   <body>
-    
+    <h1 id="id_h1" class="class_h1">Mundo Magico do JavaScript</h1>
+    <p id="corvinal" class="classe_p oculto blue ">Corvinal</p>
+    <p id="grifinoria" class="classe_p oculto red ">Grifinória</p>
+    <p id="sonserina" class="classe_p oculto green ">Sonserina</p>
+    <p id="lufa_lufa" class="classe_p oculto yellow ">Lufa-Lufa</p>
+    <button type="button" id="bdefinir" onclick="aparecer()">Aparecium</button>    
   </body>
 </html>
